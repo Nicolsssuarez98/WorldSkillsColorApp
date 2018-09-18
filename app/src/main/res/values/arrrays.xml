@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="valores_modo_partida">
+        <item>INTENTOS</item>
+        <item>TIEMPO</item>
+    </array>
+
+</resources>

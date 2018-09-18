@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ColorApp</string>
+
+    <string name="key_modo_partida">modoP</string>
+    <string name="key_tiempo_partida">tiempoP</string>
+    <string name="key_duracion_palabra">duracionP</string>
+    <string name="key_numero_intentos">intentos</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_app"
+    android:layout_height="match_parent"
+    tools:context=".activities.Partida">
+
+
+    <LinearLayout
+        android:background="@color/negro_transparente"
+        android:orientation="horizontal"
+        android:weightSum="12"
+        android:layout_width="match_parent"
+        android:layout_height="60sp">
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:fontFamily="@font/ocra"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:id="@+id/partida_t1"
+            android:text="PALABRAS"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:fontFamily="@font/ocra"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:id="@+id/partida_t2"
+            android:text="PALABRAS"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:fontFamily="@font/ocra"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:id="@+id/partida_t3"
+            android:text="PALABRAS"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:onClick="pausarJuego"
+        android:background="@drawable/icono_pausa"
+        android:layout_gravity="center"
+        android:id="@+id/pausar"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/anim_amarillo"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/b2"
+            android:background="@drawable/anim_azul"
+            android:layout_marginLeft="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <TextView
+        android:fontFamily="@font/poplar"
+        android:layout_marginTop="86dp"
+        android:id="@+id/palabra"
+        android:background="@color/negro_transparente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="AMARILLO"
+        android:textAlignment="center"
+        android:textSize="96dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/anim_rojo" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/anim_verde" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:id="@+id/layout_puntajes"
+    android:layout_width="300dp"
+    android:background="@drawable/fondo_negro_transparente"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/item_puntaje_1">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:text="1"
+            android:gravity="center"
+            android:fontFamily="@font/poplar"
+            android:textSize="42sp"
+            android:textColor="@android:color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/pun1"
+            style="@style/item_puntaje_t"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/item_puntaje_2">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:text="2"
+            android:gravity="center"
+            android:fontFamily="@font/poplar"
+            android:textSize="42sp"
+            android:textColor="@android:color/white"
+
+
+            />
+
+        <TextView
+            android:id="@+id/pun2"
+            style="@style/item_puntaje_t"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/item_puntaje_3">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:text="3"
+            android:gravity="center"
+            android:fontFamily="@font/poplar"
+            android:textSize="42sp"
+            android:textColor="@android:color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/pun3"
+            style="@style/item_puntaje_t"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/item_puntaje_4">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:text="4"
+            android:gravity="center"
+            android:fontFamily="@font/poplar"
+            android:textSize="42sp"
+            android:textColor="@android:color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/pun4"
+            style="@style/item_puntaje_t"/>
+    </LinearLayout>
+</LinearLayout>

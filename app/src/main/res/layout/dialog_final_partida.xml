@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layout_final_partida"
+    android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/fondo_negro_transparente"
+    android:layout_height="wrap_content"
+    android:paddingBottom="22dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="CORRECTAS"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/ocra"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/final_correct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:text="0"
+        android:fontFamily="@font/ocra"
+        android:textSize="62sp"
+        android:layout_margin="4dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="INCORRECTAS"
+        android:textSize="12sp"
+        android:fontFamily="@font/ocra"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/final_incorrect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:text="0"
+        android:fontFamily="@font/ocra"
+        android:textSize="22sp"
+        android:layout_margin="4dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/final_bton_home"
+            android:fontFamily="@font/ocra"
+            android:text="Inicio"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_verde_fondo"/>
+
+        <Button
+            android:id="@+id/final_bton_replay"
+            android:fontFamily="@font/ocra"
+            android:text="Jugar"
+            android:background="@drawable/boton_amarillo_fondo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
